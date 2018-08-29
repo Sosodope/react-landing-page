@@ -7,7 +7,9 @@
   background-color: #007fff;
   padding: 15px; }
   .nav a:hover {
-    color: gray; }
+    color: #FFF; }
+  .nav-right {
+    display: flex; }
 
 .nav-left a {
   color: #fff;

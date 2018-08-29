@@ -1,12 +1,17 @@
 import React from "react";
+import "./Footer.css";
 
-const Footer = () => {
+const Footer = props => {
   return (
-    <div className="footer">
-      <footer>
-        <h5>Footer</h5>
-      </footer>
-    </div>
+    <footer className="footer">
+      <p>
+        Made with{" "}
+        <span>
+          <i class="fa fa-heart" />
+        </span>{" "}
+        by {props.author}
+      </p>
+    </footer>
   );
 };
 
