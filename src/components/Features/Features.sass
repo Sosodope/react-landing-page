@@ -1,9 +1,23 @@
 .features-list
   li
+    display: grid
+    grid-template-columns: 1fr 5fr
     margin-bottom: 30px
+    grid-gap: 10px
     i
-      font-size: 2.5em
+      color: #fafafa
+      background: #007fff
+      border-radius: 50%
+      padding: 0.2em
+      font-size: 8.5em
     h4
       font-weight: bold
       margin-top: 10px
       margin-bottom: 10px
+
+@media(max-width: 650px)
+  .features-list
+    li
+      grid-template-columns: 1fr
+      i
+        width: 190px

@@ -12,36 +12,42 @@ class Features extends Component {
             <ul className="features-list">
               <li>
                 <i class="fa fa-trophy" />
-                <h4>Feature 1</h4>
+                <div className="feature">
+                  <h4>Feature 1</h4>
 
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Ratione et culpa tempora libero vel aliquid necessitatibus
-                  officiis porro odio quam neque ducimus dicta, assumenda
-                  voluptas deserunt, minus sequi dolore eius.
-                </p>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Ratione et culpa tempora libero vel aliquid necessitatibus
+                    officiis porro odio quam neque ducimus dicta, assumenda
+                    voluptas deserunt, minus sequi dolore eius.
+                  </p>
+                </div>
               </li>
               <li>
                 <i class="fa fa-wpexplorer" />
-                <h4>Feature 2</h4>
+                <div>
+                  <h4>Feature 2</h4>
 
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Ratione et culpa tempora libero vel aliquid necessitatibus
-                  officiis porro odio quam neque ducimus dicta, assumenda
-                  voluptas deserunt, minus sequi dolore eius.
-                </p>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Ratione et culpa tempora libero vel aliquid necessitatibus
+                    officiis porro odio quam neque ducimus dicta, assumenda
+                    voluptas deserunt, minus sequi dolore eius.
+                  </p>
+                </div>
               </li>
               <li>
                 <i class="fa fa-users" />
-                <h4>Feature 3</h4>
+                <div>
+                  <h4>Feature 3</h4>
 
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Ratione et culpa tempora libero vel aliquid necessitatibus
-                  officiis porro odio quam neque ducimus dicta, assumenda
-                  voluptas deserunt, minus sequi dolore eius.
-                </p>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Ratione et culpa tempora libero vel aliquid necessitatibus
+                    officiis porro odio quam neque ducimus dicta, assumenda
+                    voluptas deserunt, minus sequi dolore eius.
+                  </p>
+                </div>
               </li>
             </ul>
           </section>
