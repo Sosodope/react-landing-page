@@ -38,10 +38,10 @@ class Header extends Component {
             <a href="/" className="nav-item r-item">
               Home
             </a>
-            <a href="/faq" className="nav-item r-item">
+            <a href="/features" className="nav-item r-item">
               Features
             </a>
-            <a href="/faq" className="nav-item r-item">
+            <a href="/about" className="nav-item r-item">
               About
             </a>
             <a href="/faq" className="nav-item r-item">

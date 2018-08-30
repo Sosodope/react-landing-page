@@ -15,7 +15,7 @@ class App extends Component {
         <Header />
         <Route exact={true} path="/" component={Home} />
         <Route path="/about" component={About} />
-        <Route path="/feature" component={Features} />
+        <Route path="/features" component={Features} />
         <Route path="/faq" component={Faq} />
         <Footer author="@sosodope" />
       </div>
