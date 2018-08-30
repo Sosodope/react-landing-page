@@ -1,0 +1,8 @@
+.features-list li {
+  margin-bottom: 30px; }
+  .features-list li i {
+    font-size: 2.5em; }
+  .features-list li h4 {
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px; }

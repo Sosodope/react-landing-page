@@ -1,4 +1,8 @@
 import React, { Component } from "react";
+import Hero from "./Hero";
+import HowItWorks from "./HowItWorks";
+import Features from "./Features";
+import "./Home.css";
 
 class Home extends Component {
   render() {
@@ -6,8 +10,9 @@ class Home extends Component {
       <div>
         <div className="container">
           <section className="section">
-            <h1 className="title">Home</h1>
-            <h2 className="subtitle is-4">Lorum ipsum and all of that jazz.</h2>
+            <Hero />
+            <HowItWorks />
+            <Features />
           </section>
         </div>
       </div>
